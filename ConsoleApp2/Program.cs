@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
 Console.WriteLine("Hello, World!");
-#region 1ci sual
+#region 1citask
 //1.Verilmiş n və m (n<m) ədədləri arasında neçə tək ədəd olduğunu tapın.
 int num1 = 7;
 int num2 = 36;
@@ -21,7 +21,7 @@ for (int i = num1; i < num2; i++)
 }
 Console.WriteLine(icreasment);
 #endregion 
-#region 2ci gun
+#region 2citask
 //2.Verilmiş n tam ədədinin sadə və ya mürəkkəb ədəd olduğunu tapın.
 int num3 = 13;
 if (num3 == 1)
@@ -41,7 +41,7 @@ else
     Console.WriteLine($"{num3} sade ededdir");
 }
 #endregion 
-#region 3ci sual
+#region 3cutask
 //3.Verilmiş müsbət tam n ədədinin 2-nin qüvvəti olub-olmamasını tapın.
 int num5 = 32;
 bool isPowerOf2 = true; // bunu 2 nin quvveti kimi goturek
@@ -72,7 +72,7 @@ else
     }
 }
 #endregion
-#region 4cu sual
+#region 4cutask
 //Verilmiş n tam ədədinin neçə mərtəbəli olduğunu tapın. Məs: 23452, output: 5
 int num = 145;
 int result = 0;
