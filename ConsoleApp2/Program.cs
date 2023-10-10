@@ -19,11 +19,10 @@ for (int i = num1; i < num2; i++)
         }
     }
 }
+Console.WriteLine(icreasment);
 #endregion 
 #region 2ci gun
 //2.Verilmiş n tam ədədinin sadə və ya mürəkkəb ədəd olduğunu tapın.
-Console.WriteLine(icreasment);
-
 int num3 = 13;
 if (num3 == 1)
 {
@@ -44,19 +43,33 @@ else
 #endregion 
 #region 3ci sual
 //3.Verilmiş müsbət tam n ədədinin 2-nin qüvvəti olub-olmamasını tapın.
-int num5 = 16;
-if(num5 <=0)
+int num5 = 32;
+bool isPowerOf2 = true; // bunu 2 nin quvveti kimi goturek
+
+if (num5 <= 0)
 {
-      Console.WriteLine($"{num5}2nin quvveti deyil ");//cunki menfi ve sifri ededler ola bilmez
-    
-} 
-while(num5 > 1)
+    Console.WriteLine($"{num5} 2nin quvveti deyil"); //  0 ve menfi ededler 2nin quvveti ola bilmes
+}
+else
 {
-    if(num5 % 2 != 0)
+    while (num5 > 1)
     {
-        Console.WriteLine($"{num5}2nin quvveti deyil");
+        if (num5 % 2 != 0)
+        {
+            isPowerOf2 = false;
+
+        }
+        break;
     }
-    num5 /= 2;
+
+    if (isPowerOf2)
+    {
+        Console.WriteLine($"{num5} is a power of 2");
+    }
+    else
+    {
+        Console.WriteLine($"{num5} is not a power of 2");
+    }
 }
 #endregion
 #region 4cu sual
