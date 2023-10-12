@@ -64,11 +64,11 @@ else
 
     if (isPowerOf2)
     {
-        Console.WriteLine($"{num5} is a power of 2");
+        Console.WriteLine($"{num5} 2nin quvvetidir ");
     }
     else
     {
-        Console.WriteLine($"{num5} is not a power of 2");
+        Console.WriteLine($"{num5} 2nin quvveti deyil");
     }
 }
 #endregion
