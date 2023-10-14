@@ -23,22 +23,25 @@ Console.WriteLine(icreasment);
 #endregion 
 #region 2citask
 //2.Verilmiş n tam ədədinin sadə və ya mürəkkəb ədəd olduğunu tapın.
-int num3 = 13;
-if (num3 == 1)
+Console.WriteLine("Ededi daxil edin:");
+int num = int.Parse(Console.ReadLine());
+int divisor = 1;
+int countDivisor = 0;
+for (int a = divisor; a <= num; a++)
 {
-    Console.WriteLine($"{num3} bu seda ve murekkebdir");
+    if (num % a == 0)
+    {
+        countDivisor++;
+    }
+
 }
-else if (num3 == 2 || num3 == 3)
+if (countDivisor > 2)
 {
-    Console.WriteLine($"{num3} seda ededir");
-}
-else if (num3 % 2 == 0 || num3 % 3 == 0)
-{
-    Console.WriteLine($"{num3} murekkeb ededdir");
+    Console.WriteLine("Daxil etdiyiniz eded murekkebdir");
 }
 else
 {
-    Console.WriteLine($"{num3} sade ededdir");
+    Console.WriteLine("Daxil etdiyiniz eded sadedir");
 }
 #endregion 
 #region 3cutask
