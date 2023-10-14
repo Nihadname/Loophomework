@@ -14,8 +14,8 @@ for (int i = num1; i < num2; i++)
     {
         if (i % 2 == 1)
         {
-           icreasment++;
-           //Console.WriteLine(i);
+            icreasment++;
+            //Console.WriteLine(i);
         }
     }
 }
@@ -74,13 +74,13 @@ else
     }
 }
 #endregion
-#region 4cutask
+#region 4cu task
 //Verilmiş n tam ədədinin neçə mərtəbəli olduğunu tapın. Məs: 23452, output: 5
-int num = 145;
+int num = 1468;
 int result = 0;
 while (num > 0)//burda while dongu sali 0-dan böyük olana kimi
 {
-   result++;//burda biz ededi ona bolduyumuz qeder artacaq ve burda 3defe 10 bolunub ona gore cavab 3 olur
+    result++;//burda biz ededi ona bolduyumuz qeder artacaq ve burda 3defe 10 bolunub ona gore cavab 3 olur
     num /= 10;
 }
 Console.WriteLine(result);
