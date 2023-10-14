@@ -37,11 +37,11 @@ for (int a = divisor; a <= num; a++)
 }
 if (countDivisor > 2)
 {
-    Console.WriteLine("Daxil etdiyiniz eded murekkebdir");
+    Console.WriteLine("eded murekkebdir");
 }
 else
 {
-    Console.WriteLine("Daxil etdiyiniz eded sadedir");
+    Console.WriteLine("eded sadedir");
 }
 #endregion 
 #region 3cutask
