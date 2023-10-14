@@ -57,7 +57,7 @@ else
         if (num5 % 2 != 0)
         {
             isPowerOf2 = false;
-            break;
+            num5 = 1;
 
         }
         num5 /= 2;
